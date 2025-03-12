@@ -17,7 +17,7 @@ export default function Banner() {
                     weight={true}
                     italic={true}
                     textColor="#fafafa"
-                    minFontSize={400}
+                    minFontSize={300}
                 />
             </div>
         </div>
