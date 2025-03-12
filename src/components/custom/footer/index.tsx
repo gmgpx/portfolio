@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { Linkedin, Instagram, Mail, Phone } from 'lucide-react';
+import { Linkedin, Github, Mail, Phone } from 'lucide-react';
 import "@/styles/styles.css"
 
 export default function Contact() {
@@ -65,7 +65,7 @@ export default function Contact() {
                 <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4">
                     <div className="flex gap-4 text-zinc-50">
                         <a
-                            href="https://linkedin.com/in/seu-perfil"
+                            href="https://www.linkedin.com/in/gustavo-monteiro-727450210/?locale=pt_BR"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex text-zinc-50 gap-2 hover:text-zinc-400 transition-colors"
@@ -73,12 +73,12 @@ export default function Contact() {
                             <Linkedin size={24} />
                         </a>
                         <a
-                            href="https://instagram.com/seu-perfil"
+                            href="https://github.com/gmgpx"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex text-zinc-50 gap-2 hover:text-zinc-400 transition-colors"
                         >
-                            <Instagram size={24} />
+                            <Github size={24} />
                         </a>
                     </div>
 
@@ -90,11 +90,13 @@ export default function Contact() {
                         <span className="text-sm sm:text-base">gugapires92@gmail.com</span>
                     </a>
                     <a
-                        href="tel:+5515996834032"
+                        href="https://wa.me/5515996834032?text=Olá,%20estou%20interessado%20em%20seus%20serviços!"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                     >
                         <Phone size={20} />
-                        <span className="text-sm sm:text-base">(15) 99683-4032</span>
+                        <span className="text-sm sm:text-base">(15) 99683 - 4032</span>
                     </a>
                 </div>
             </div>
