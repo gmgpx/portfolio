@@ -70,7 +70,7 @@ export default function About() {
             </div>
             <div className="p-8 rounded-2xl">
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-8">
-                    <div className="flex justify-center sm:w-1/3 w-full pointer-events-none md:pointer-events-auto">
+                    <div className="flex justify-center lg:w-1/3 w-full pointer-events-none lg:pointer-events-auto">
                         <TiltedCard
                             imageSrc="https://media.licdn.com/dms/image/v2/D4D03AQFV80494cn8NQ/profile-displayphoto-shrink_400_400/B4DZUUVLhyHAAk-/0/1739802855536?e=1745452800&v=beta&t=ar-A-YMbEFiKRQ3pwxBCYVZuk50GSRCA6fw6tohh5h0"
                             altText="Imagem de perfil"

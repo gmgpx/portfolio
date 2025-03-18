@@ -44,25 +44,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center text-zinc-50 text-center text-3xl sm:text-6xl lg:text-9xl py-10 sm:py-16">
-                    <a href="#banner" >
-                        <p className="py-2 hover:font-serif reveal">
-                            Banner
-                        </p>
-                    </a>
-                    <a href="#sobre" >
-                        <p className="py-2 hover:font-serif reveal">
-                            Sobre mim
-                        </p>
-                    </a>
-                    <a href="#projetos" >
-                        <p className="py-2 hover:font-serif reveal">
-                            Projetos
-                        </p>
-                    </a>
-                </div>
-
-                <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4">
+                <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 pt-12">
                     <div className="flex gap-4 text-zinc-50">
                         <a
                             href="https://www.linkedin.com/in/gustavo-monteiro-727450210/?locale=pt_BR"
@@ -96,9 +78,29 @@ export default function Contact() {
                         className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                     >
                         <Phone size={20} />
-                        <span className="text-sm sm:text-base">(15) 99683 - 4032</span>
+                        <span className="text-sm sm:text-base">WhatsApp</span>
                     </a>
                 </div>
+
+                <div className="flex flex-col justify-center text-zinc-50 text-center text-3xl sm:text-6xl lg:text-9xl py-10 sm:py-16">
+                    <a href="#banner" >
+                        <p className="py-2 hover:font-serif reveal">
+                            Banner
+                        </p>
+                    </a>
+                    <a href="#sobre" >
+                        <p className="py-2 hover:font-serif reveal">
+                            Sobre mim
+                        </p>
+                    </a>
+                    <a href="#projetos" >
+                        <p className="py-2 hover:font-serif reveal">
+                            Projetos
+                        </p>
+                    </a>
+                </div>
+
+
             </div>
 
             <div className="pt-4 text-center text-sm sm:text-md lg:text-lg reveal">

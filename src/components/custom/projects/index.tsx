@@ -178,7 +178,7 @@ export default function Projects() {
                                     >
                                         <Link href={project.github} target="_blank" rel="noopener noreferrer">
                                             <Github className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                                            Code
+                                            Código
                                         </Link>
                                     </Button>
                                 )}
@@ -189,7 +189,7 @@ export default function Projects() {
                                     >
                                         <Link href={project.demo} target="_blank" rel="noopener noreferrer">
                                             <ExternalLink className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                                            Demo
+                                            Demonstração
                                         </Link>
                                     </Button>
                                 )}
