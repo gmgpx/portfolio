@@ -39,7 +39,7 @@ export default function Projects() {
             id: 2,
             title: "Tag System",
             description: "Sistema de controle de acesso com ESP32 e RFID, integrado a uma aplicação Web para leitura de RFID, autenticação e registro de eventos em tempo real.",
-            image: "/images/projects/tag.png",
+            image: "/images/projects/tag.jpeg",
             tags: ["React", "TailwindCSS", "Next.js", "C#", "ASP.NET", "ESP32"],
             github: "https://github.com/SL-Squad442/tag_system",
             category: "fullstack",
@@ -69,7 +69,43 @@ export default function Projects() {
             image: "/images/projects/ibike.png",
             tags: ["React Native", "JSON-Server", "Android Studio", "Mobile", "Figma"],
             github: "https://github.com/gmgpx/iBike",
+            category: "fullstack",
+        },
+        {
+            id: 6,
+            title: "PetBuddy",
+            description: "Landing page modelo para PetShop's, desenvolvida com SSR no Next.js para otimizar performance e SEO. Com uma responsividade fluida em todos os dispositivos.",
+            image: "/images/projects/petbuddy.png",
+            tags: ["React", "TailwindCSS", "Next.js", "Shadcn/ui", "AoS", "Responsividade"],
+            github: "https://github.com/gmgpx/landing_page_petbuddy",
+            demo: "https://petbuddy-gmgpx.netlify.app",
             category: "frontend",
+        },
+        {
+            id: 7,
+            title: "Pokedex",
+            description: "A clássica Pokédex foi meu primeiro projeto consumindo uma API, desenvolvido no primeiro semestre. Recentemente, revisitei o código para aplicar alguns conceitos que obtive, como a padronização REST.",
+            image: "/images/projects/pokedex.png",
+            tags: ["HTML", "CSS", "Javascript", "REST", "PokéAPI"],
+            github: "https://github.com/gmgpx/pokedex",
+            demo: "https://pokedex-gmgpx.netlify.app",
+            category: "frontend",
+        },
+        {
+            id: 8,
+            title: "Painel de Monitoramento (Looker)",
+            description: "Monitoramento de serviços no ambiente do cliente utilizando o Looker Studio do Google Cloud Platform (GCP). Através de dashboards, tabelas e filtros, visualizamos em tempo real métricas como desempenho de serviços e utilização de recursos.",
+            image: "/images/projects/looker.png",
+            tags: ["Google Cloud Plataform", "Looker Studio", "Big Query", "Cloud Storage"],
+            category: "producao",
+        },
+        {
+            id: 9,
+            title: "Tipificação Manual",
+            description: "Aplicação em Python com Streamlit para tipificação de documentos, onde o usuário pode carregar imagens ou pastas de imagens, definir manualmente o tipo, modelo e versão dos documentos e, em seguida, comparar os resultados com a predição do modelo de documentoscopia da empresa",
+            image: "/images/projects/streamlit.png",
+            tags: ["Python", "Streamlit", "Ubuntu", "Data Science"],
+            category: "producao",
         },
     ]
 
@@ -136,6 +172,13 @@ export default function Projects() {
                             className="rounded-full text-xs sm:text-sm md:text-base px-3 sm:px-4 py-1 sm:py-2"
                         >
                             Full Stack
+                        </Button>
+                        <Button
+                            variant={filter === "producao" ? "default" : "outline"}
+                            onClick={() => setFilter("producao")}
+                            className="rounded-full text-xs sm:text-sm md:text-base px-3 sm:px-4 py-1 sm:py-2"
+                        >
+                            Produção
                         </Button>
                     </div>
                 </div>
