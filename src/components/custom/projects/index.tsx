@@ -28,6 +28,22 @@ export default function Projects() {
     const projects: Project[] = [
         {
             id: 1,
+            title: "Painel de Monitoramento (Looker)",
+            description: "Monitoramento de serviços no ambiente do cliente utilizando o Looker Studio do Google Cloud Platform (GCP). Através de dashboards, tabelas e filtros, visualizamos em tempo real métricas como desempenho de serviços e utilização de recursos.",
+            image: "/images/projects/looker.png",
+            tags: ["Google Cloud Plataform", "Looker Studio", "Big Query", "Cloud Storage"],
+            category: "producao",
+        },
+        {
+            id: 2,
+            title: "Tipificação Manual",
+            description: "Aplicação em Python com Streamlit para tipificação de documentos, onde o usuário pode carregar imagens ou pastas de imagens, definir manualmente o tipo, modelo e versão dos documentos e, em seguida, comparar os resultados com a predição do modelo de documentoscopia da empresa",
+            image: "/images/projects/streamlit.png",
+            tags: ["Python", "Streamlit", "Ubuntu", "Data Science"],
+            category: "producao",
+        },
+        {
+            id: 3,
             title: "Water Safe",
             description: "Monitoramento da drenagem do ar-condicionado, com dashboards para acompanhar a coleta e reutilização da água na irrigação das plantas da faculdade.",
             image: "/images/projects/water-safe.png",
@@ -36,7 +52,7 @@ export default function Projects() {
             category: "fullstack",
         },
         {
-            id: 2,
+            id: 4,
             title: "Tag System",
             description: "Sistema de controle de acesso com ESP32 e RFID, integrado a uma aplicação Web para leitura de RFID, autenticação e registro de eventos em tempo real.",
             image: "/images/projects/tag.jpeg",
@@ -45,7 +61,7 @@ export default function Projects() {
             category: "fullstack",
         },
         {
-            id: 3,
+            id: 5,
             title: "Evolve.br",
             description: "Landing page para evolve.br, empresa especializada em sistemas sob demanda, oferecendo soluções personalizadas às necessidades de cada cliente.",
             image: "/images/projects/evolve.png",
@@ -54,16 +70,7 @@ export default function Projects() {
             category: "frontend",
         },
         {
-            id: 4,
-            title: "Atemporal",
-            description: "Jogo em Java focado no desenvolvimento de habilidades em OOP, versionamento de código e documentação, proporcionando uma experiência prática e educativa.",
-            image: "/images/projects/atemporal.jpeg",
-            tags: ["Java 8", "JavaFX", "CSS", "Git", "Scrum", "POO", "Documentação"],
-            github: "https://github.com/gmgpx/Atemporal_java_game",
-            category: "fullstack",
-        },
-        {
-            id: 5,
+            id: 6,
             title: "iBike",
             description: "Aplicativo para busca de anúncios confiáveis e recomendados para motos, simulando dados com JSON-Server. A interface permite uma navegação fluida entre principais anúncios, marcas e avaliações.",
             image: "/images/projects/ibike.png",
@@ -72,7 +79,7 @@ export default function Projects() {
             category: "fullstack",
         },
         {
-            id: 6,
+            id: 7,
             title: "PetBuddy",
             description: "Landing page modelo para PetShop's, desenvolvida com SSR no Next.js para otimizar performance e SEO. Com uma responsividade fluida em todos os dispositivos.",
             image: "/images/projects/petbuddy.png",
@@ -82,7 +89,16 @@ export default function Projects() {
             category: "frontend",
         },
         {
-            id: 7,
+            id: 8,
+            title: "Atemporal",
+            description: "Jogo em Java focado no desenvolvimento de habilidades em OOP, versionamento de código e documentação, proporcionando uma experiência prática e educativa.",
+            image: "/images/projects/atemporal.jpeg",
+            tags: ["Java 8", "JavaFX", "CSS", "Git", "Scrum", "POO", "Documentação"],
+            github: "https://github.com/gmgpx/Atemporal_java_game",
+            category: "fullstack",
+        },
+        {
+            id: 9,
             title: "Pokedex",
             description: "A clássica Pokédex foi meu primeiro projeto consumindo uma API, desenvolvido no primeiro semestre. Recentemente, revisitei o código para aplicar alguns conceitos que obtive, como a padronização REST.",
             image: "/images/projects/pokedex.png",
@@ -90,23 +106,7 @@ export default function Projects() {
             github: "https://github.com/gmgpx/pokedex",
             demo: "https://pokedex-gmgpx.netlify.app",
             category: "frontend",
-        },
-        {
-            id: 8,
-            title: "Painel de Monitoramento (Looker)",
-            description: "Monitoramento de serviços no ambiente do cliente utilizando o Looker Studio do Google Cloud Platform (GCP). Através de dashboards, tabelas e filtros, visualizamos em tempo real métricas como desempenho de serviços e utilização de recursos.",
-            image: "/images/projects/looker.png",
-            tags: ["Google Cloud Plataform", "Looker Studio", "Big Query", "Cloud Storage"],
-            category: "producao",
-        },
-        {
-            id: 9,
-            title: "Tipificação Manual",
-            description: "Aplicação em Python com Streamlit para tipificação de documentos, onde o usuário pode carregar imagens ou pastas de imagens, definir manualmente o tipo, modelo e versão dos documentos e, em seguida, comparar os resultados com a predição do modelo de documentoscopia da empresa",
-            image: "/images/projects/streamlit.png",
-            tags: ["Python", "Streamlit", "Ubuntu", "Data Science"],
-            category: "producao",
-        },
+        }
     ]
 
     const filteredProjects = filter === "all"

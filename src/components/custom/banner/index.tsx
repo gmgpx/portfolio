@@ -14,7 +14,7 @@ export default function Banner() {
                 }
                 className="text-white"
             >
-                <p className="italic">" <span className="text-blue-400">Design</span> is not just what it looks like and feels like. <span className="text-blue-400">Design</span> is how it works. "</p>
+                <p className="italic mx-4 text-center text-lg md:text-2xl lg:text-4xl">&ldquo;<span className="text-blue-400">Design</span> is not just what it looks like and feels like. <span className="text-blue-400">Design</span> is how it works.&rdquo;</p>
             </MaskContainer>        
         </section>
     );
