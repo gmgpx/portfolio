@@ -1,30 +1,21 @@
 "use client";
 
-import TextPressure from "@/components/bits/TextPressure/TextPressure";
+import { MaskContainer } from "../mask-effect";
 import "@/styles/styles.css";
 
 export default function Banner() {
     return (
-        <div id="banner" className="w-full h-screen flex items-center justify-center overflow-hidden">
-            <div className="md:hidden">
-                <h1 className="text-6xl font-bold">Portfólio</h1>
-                <p className="text-2xl">by Gustavo Monteiro</p>
-            </div>
-
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:block">
-                <TextPressure
-                    text="Portfólio"
-                    flex={true}
-                    alpha={false}
-                    stroke={false}
-                    width={false}
-                    weight={true}
-                    italic={true}
-                    textColor="#fafafa"
-                    minFontSize={200}
-                />
-                <p className="text-center text-xl md:text-2xl">by Gustavo Monteiro</p>
-            </div>
-        </div>
+        <section id="banner" className="h-screen">
+            <MaskContainer
+                revealText={
+                    <p className="mx-auto text-center text-4xl md:text-6xl lg:text-9xl font-bold">
+                        @gmgpx
+                    </p>
+                }
+                className="text-white"
+            >
+                <p className="italic">" <span className="text-blue-400">Design</span> is not just what it looks like and feels like. <span className="text-blue-400">Design</span> is how it works. "</p>
+            </MaskContainer>        
+        </section>
     );
 }
