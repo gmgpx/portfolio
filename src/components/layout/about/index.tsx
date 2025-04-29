@@ -7,27 +7,40 @@ import { CircleUser } from "lucide-react"
 import "@/styles/styles.css"
 
 const logoImgs = [
+    { imgUrl: "./images/logowall/figma.png", altText: "Figma" },
     { imgUrl: "./images/logowall/git.png", altText: "Git" },
     { imgUrl: "./images/logowall/ubuntu.png", altText: "Ubuntu" },
-    { imgUrl: "./images/logowall/gcp.png", altText: "Google Cloud Plattform" },
-    { imgUrl: "./images/logowall/azure.png", altText: "Azure DevOps" },
-    { imgUrl: "./images/logowall/pg.png", altText: "pgAdmin" },
-    { imgUrl: "./images/logowall/mongo.png", altText: "MongoDB" },
     { imgUrl: "./images/logowall/docker.png", altText: "Docker" },
-    { imgUrl: "./images/logowall/figma.png", altText: "Figma" },
+    { imgUrl: "./images/logowall/aws.png", altText: "AWS" },
+    { imgUrl: "./images/logowall/gcp.png", altText: "Google Cloud Plattform" },
+    { imgUrl: "./images/logowall/gemini.png", altText: "GeminiAPI" },
+    { imgUrl: "./images/logowall/azure.png", altText: "Azure DevOps" },
+    { imgUrl: "./images/logowall/pg.png", altText: "Postgres" },
+    { imgUrl: "./images/logowall/sqlserver.png", altText: "SQL Server" },
+    { imgUrl: "./images/logowall/prisma.png", altText: "Prisma" },
+    { imgUrl: "./images/logowall/mongo.png", altText: "MongoDB" },
     { imgUrl: "./images/logowall/html.png", altText: "HTML" },
     { imgUrl: "./images/logowall/css.png", altText: "CSS" },
+    { imgUrl: "./images/logowall/sass.png", altText: "CSSasS" },
     { imgUrl: "./images/logowall/js.png", altText: "Javascript" },
+    { imgUrl: "./images/logowall/angular.png", altText: "Angular" },
+    { imgUrl: "./images/logowall/astro.png", altText: "AstroJS" },
+    { imgUrl: "./images/logowall/vue.png", altText: "VueJS" },
     { imgUrl: "./images/logowall/react.png", altText: "React" },
     { imgUrl: "./images/logowall/tailwind.png", altText: "Tailwind.css" },
     { imgUrl: "./images/logowall/next.png", altText: "Next.js" },
     { imgUrl: "./images/logowall/vite.png", altText: "Vite" },
+    { imgUrl: "./images/logowall/nodejs.png", altText: "NodeJS" },
+    { imgUrl: "./images/logowall/nestjs.png", altText: "NestJS" },
     { imgUrl: "./images/logowall/python.png", altText: "Python" },
     { imgUrl: "./images/logowall/streamlit.png", altText: "Streamlit" },
+    { imgUrl: "./images/logowall/rest.png", altText: "REST" },
     { imgUrl: "./images/logowall/socket.png", altText: "Socket IO" },
     { imgUrl: "./images/logowall/bot.png", altText: "ChatBot" },
     { imgUrl: "./images/logowall/java.png", altText: "Java8" },
     { imgUrl: "./images/logowall/javaFX.png", altText: "JavaFX" },
+    { imgUrl: "./images/logowall/csharp.png", altText: "csharp" },
+    { imgUrl: "./images/logowall/dotnet.png", altText: "dotnet" },
 ]
 
 export default function About() {
@@ -72,7 +85,7 @@ export default function About() {
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
                     <div className="flex justify-center lg:w-1/3 w-full pointer-events-none lg:pointer-events-auto">
                         <TiltedCard
-                            imageSrc="https://media.licdn.com/dms/image/v2/D4D03AQFV80494cn8NQ/profile-displayphoto-shrink_400_400/B4DZUUVLhyHAAk-/0/1739802855536?e=1745452800&v=beta&t=ar-A-YMbEFiKRQ3pwxBCYVZuk50GSRCA6fw6tohh5h0"
+                            imageSrc="https://avatars.githubusercontent.com/u/158373467?v=4"
                             altText="Imagem de perfil"
                             captionText="Bora trabalhar juntos?"
                             containerHeight="400px"
@@ -93,21 +106,21 @@ export default function About() {
                             <h1 className="text-xl sm:text-4xl font-semibold reveal">Gustavo Monteiro</h1>
                         </div>
 
-                        <p className="max-w-2xl md:max-w-5xl text-zinc-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed reveal">
-                            Sou desenvolvedor Full-Stack apaixonado por criar soluções únicas e inovadoras.
-                        </p>
 
-                        <p className="max-w-2xl md:max-w-5xl text-zinc-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed reveal">
-                            Formado pela Faculdade de Tecnologia SENAI Gaspar Ricardo Junior em Análise e Desenvolvimento de Sistemas.
-                        </p>
+                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-100 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
+                            Desenvolvedor apaixonado por criar soluções <b>únicas, eficientes e seguras</b>,
+                            com foco em qualidade de código e experiência do usuário.
+                        </h1>
 
-                        <p className="max-w-2xl md:max-w-5xl text-zinc-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed reveal">
-                        Transformar ideias em soluções criativas e funcionais é o que me motiva. 
-                        Com grande interesse por design UI/UX, desenvolvimento de software, 
-                        Inteligência Artificial, automação e tecnologia em geral, 
-                        busco sempre aprender e inovar, 
-                        criando projetos que realmente fazem a diferença.
-                        </p>
+                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-100 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
+                            Graduado em Análise e Desenvolvimento de Sistemas pela <b>Faculdade de Tecnologia SENAI &ldquo;Gaspar Ricardo Júnior&rdquo;</b>, reconhecida com <b>nota máxima no MEC.</b>
+                        </h1>
+
+                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-50 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
+                            Tenho grande interesse em <b>aprender constantemente</b>, movido por <b>desafios</b>, sempre buscando sair da zona de conforto.
+                            Explorando desde tecnologias até boas práticas de desenvolvimento de software,
+                            aplicando meus conhecimentos em <b>soluções acessíveis, eficientes e que realmente agregam valor.</b>
+                        </h1>
                     </div>
                 </div>
 

@@ -31,7 +31,7 @@ export default function Contact() {
     }, [])
 
     return (
-        <footer ref={sectionRef} className="py-10 sm:py-16 lg:py-20">
+        <footer ref={sectionRef} className="pt-10 pb-4 sm:pt-16 sm:pb-8 lg:pt-20 lg:pb-10">
             <div className="mx-4 sm:mx-8 lg:mx-20">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
                     <div className="space-y-2">
@@ -50,17 +50,19 @@ export default function Contact() {
                             href="https://www.linkedin.com/in/gustavo-monteiro-727450210/?locale=pt_BR"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex text-zinc-50 gap-2 hover:text-zinc-400 transition-colors"
+                            className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                         >
-                            <Linkedin size={24} />
+                            <Linkedin size={32} />
+                            <span className="text-sm sm:text-base">LinkedIn</span>
                         </a>
                         <a
                             href="https://github.com/gmgpx"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex text-zinc-50 gap-2 hover:text-zinc-400 transition-colors"
+                            className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                         >
-                            <Github size={24} />
+                            <Github size={32} />
+                            <span className="text-sm sm:text-base">Github</span>
                         </a>
                     </div>
 
@@ -68,8 +70,8 @@ export default function Contact() {
                         href="mailto:gugapires92@gmail.com"
                         className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                     >
-                        <Mail size={20} />
-                        <span className="text-sm sm:text-base">gugapires92@gmail.com</span>
+                        <Mail size={32} />
+                        <span className="text-sm sm:text-base">Email</span>
                     </a>
                     <a
                         href="https://wa.me/5515996834032?text=Olá,%20estou%20interessado%20em%20seus%20serviços!"
@@ -77,7 +79,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                         className="flex text-zinc-50 items-center gap-2 hover:text-zinc-400 transition-colors"
                     >
-                        <Phone size={20} />
+                        <Phone size={32} />
                         <span className="text-sm sm:text-base">WhatsApp</span>
                     </a>
                 </div>
@@ -105,7 +107,7 @@ export default function Contact() {
 
             <div className="pt-4 text-center text-sm sm:text-md lg:text-lg reveal">
                 <h1>Todos os direitos reservados © 2025</h1>
-                <h1>by Gustavo Monteiro</h1>
+                <h1>by Gustavo Monteiro.</h1>
             </div>
         </footer>
     )

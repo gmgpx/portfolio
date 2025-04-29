@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
 
@@ -106,6 +105,9 @@
 
     --chart-5: 340 75% 55%
   }
+  .theme {
+
+    --animate-aurora: aurora 8s ease-in-out infinite alternate}
 }
 
 @layer base {
