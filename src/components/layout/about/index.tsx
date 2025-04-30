@@ -107,19 +107,17 @@ export default function About() {
                         </div>
 
 
-                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-100 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
-                            Desenvolvedor apaixonado por criar soluções <b>únicas, eficientes e seguras</b>,
-                            com foco em qualidade de código e experiência do usuário.
+                        <h1 className="max-w-xl md:max-w-2xl lg:max-w-3xl text-zinc-200 text-md/relaxed md:text-lg/relaxed lg:text-xl/relaxed reveal">
+                            Desenvolvedor apaixonado por criar soluções <b>seguras, eficientes e com propósito.</b>
                         </h1>
 
-                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-100 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
-                            Graduado em Análise e Desenvolvimento de Sistemas pela <b>Faculdade de Tecnologia SENAI &ldquo;Gaspar Ricardo Júnior&rdquo;</b>, reconhecida com <b>nota máxima no MEC.</b>
+                        <h1 className="max-w-xl md:max-w-2xl lg:max-w-3xl text-zinc-200 text-md/relaxed md:text-lg/relaxed lg:text-xl/relaxed reveal">
+                            Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia SENAI &ldquo;Gaspar Ricardo Júnior&rdquo;, reconhecida com <b>nota máxima no MEC.</b>
                         </h1>
 
-                        <h1 className="max-w-2xl md:max-w-4xl lg:max-w-6xl text-zinc-50 text-md/relaxed md:text-xl/relaxed lg:text-2xl/relaxed reveal">
-                            Tenho grande interesse em <b>aprender constantemente</b>, movido por <b>desafios</b>, sempre buscando sair da zona de conforto.
-                            Explorando desde tecnologias até boas práticas de desenvolvimento de software,
-                            aplicando meus conhecimentos em <b>soluções acessíveis, eficientes e que realmente agregam valor.</b>
+                        <h1 className="max-w-xl md:max-w-2xl lg:max-w-3xl text-zinc-200 text-md/relaxed md:text-lg/relaxed lg:text-xl/relaxed reveal">
+                            Comprometido com a <b>evolução contínua</b>, enfrento desafios com uma mentalidade analítica e orientada à solução.
+                            Busco aplicar boas práticas e tecnologias modernas para entregar <b>resultados de alto impacto e valor real.</b>
                         </h1>
                     </div>
                 </div>

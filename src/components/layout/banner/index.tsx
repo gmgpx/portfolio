@@ -22,7 +22,7 @@ export default function Banner() {
             <ShapeBlur
                 variation={0}
                 pixelRatioProp={pixelRatio}
-                shapeSize={1.2}
+                shapeSize={1.4}
                 roundness={0.5}
                 borderSize={0.05}
                 circleSize={0.5}
